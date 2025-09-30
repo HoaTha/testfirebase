@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": "my-website",
+
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+
+    // ... other hosting settings
+    "github": {
+      "repo": "HoaTha/testfirebase",
+      "branch": "main" // or specify your desired branch
+    }
+
+  }
+}
