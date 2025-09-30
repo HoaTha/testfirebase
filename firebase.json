@@ -14,7 +14,7 @@
         "destination": "/index.html"
       }
     ]
-
+    ,
     // ... other hosting settings
     "github": {
       "repo": "HoaTha/testfirebase",
